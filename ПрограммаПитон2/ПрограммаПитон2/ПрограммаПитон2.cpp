@@ -10,3 +10,10 @@ double max(double x, double y)
     }
     return x;
 }
+double min(double x, double y)
+{
+    if (x > y) {
+        return y;
+    }
+    return x;
+}
